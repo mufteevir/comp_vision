@@ -1,5 +1,5 @@
 """
-
+drawing rectangle by mouse on picture
 """
 import cv2
 import numpy as np
