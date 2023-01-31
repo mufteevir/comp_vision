@@ -1,5 +1,5 @@
 """
-Tracking APIs
+Tracking API
 select tracker API, Select a ROI and then press SPACE or ENTER button
 """
 import cv2
