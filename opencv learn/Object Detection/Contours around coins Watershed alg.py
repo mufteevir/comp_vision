@@ -45,7 +45,7 @@ display(sure_fg,cmap='gray')
 
 #Step 8: Find Unknown Region
 sure_fg = np.uint8(sure_fg)
-unknown = cv2.subtract(sure_bg,sure_fg)
+unknown = cv2.subtract(sure_bg,sure_fg)#not sure is it foreground or background
 
 display(unknown,cmap='gray')
 
